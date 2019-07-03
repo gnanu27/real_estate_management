@@ -1,0 +1,12 @@
+### Schemas
+
+###Model / db field 
+id: INT
+
+
+
+###Realtors
+
+
+
+###contact
