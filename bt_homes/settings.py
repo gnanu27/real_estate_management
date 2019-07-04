@@ -19,13 +19,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '9ex1r!ty0xh7rj2a+@51ck4ez(%q=^xg3trp*t67e^*d6!y!ig'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -80,15 +73,7 @@ WSGI_APPLICATION = 'bt_homes.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bthomes',
-        'USER': 'postgres',
-        'PASSWORD': 'pass',
-        'HOST': 'localhost'
-    }
-}
+
 
 
 # Password validation
@@ -144,7 +129,6 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
-
 
 
 try: 
